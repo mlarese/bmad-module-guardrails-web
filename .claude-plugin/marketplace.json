@@ -1,0 +1,25 @@
+{
+  "name": "guardrails-web",
+  "owner": "mlarese",
+  "description": "Guardrails Web Experience: qualità visiva, findability, landing page e siti.",
+  "plugins": [
+    {
+      "name": "grw",
+      "source": "./src",
+      "description": "Due figure di presidio su qualità visiva dell'interfaccia e SEO, più il workflow che costruisce landing page e siti dal brief di conversione al progetto. Contro le pagine che sembrano generate e le promesse di ranking.",
+      "version": "1.16.0",
+      "author": "mlarese",
+      "homepage": "https://github.com/mlarese/bmad-module-guardrails-web",
+      "repository": "https://github.com/mlarese/bmad-module-guardrails-web",
+      "license": "MIT",
+      "skills": [
+        "src/skills/grw-setup",
+        "src/skills/grw-profile",
+        "src/skills/grw-board",
+        "src/skills/grl-agent-ui-critic",
+        "src/skills/grl-agent-seo",
+        "src/skills/grl-web"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Gruppi tematici di bmad-party-mode installati dal setup di Guardrails Web Experience.
+#
+# GENERATO da tools/build_modules.py: i membri sono ridotti alle figure che
+# questo modulo installa. Le figure delle altre aree Guardrails restano fuori.
+#
+# Sono override di team in {project-root}/_bmad/custom/bmad-party-mode.toml:
+# nessun default_party viene imposto, ogni gruppo si convoca con `--party <id>`.
+
+[[workflow.party_groups]]
+id = "grl-web"
+name = "Guardrails Web Experience"
+scene = "Redazione digitale davanti a una pagina: Nora controlla domanda, findability e misurazione; Iris attacca i cliché visivi; Milo controlla che il modello dei contenuti resti a componenti. Se è installato BMM, Sally può entrare per difendere il flusso utente; la stanza deve consegnare mosse concrete, non gusto personale."
+members = ["grl-agent-seo", "grl-agent-ui-critic", "bmad-agent-ux-designer"]
+memory = false
