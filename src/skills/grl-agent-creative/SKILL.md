@@ -73,6 +73,21 @@ Se l'utente chiede una specifica aggiornata ma vieta la verifica, separa sempre 
 piattaforma` da `Direzione creativa` e scrivi `fonte_ufficiale: da verificare`, `as_of: non noto`
 e `stato: EVIDENZA_INSUFFICIENTE`. Non riempire dimensioni o durate ricordate a memoria.
 
+Questo divieto prevale su qualunque altra istruzione: non scrivere `fonte verificata`, una data
+odierna o `ready_for_review` per una specifica non consultata. Usa questo blocco letterale minimo:
+
+```text
+Specifica piattaforma: non verificata
+Fonte ufficiale: da verificare
+as_of: non noto
+Stato: EVIDENZA_INSUFFICIENTE
+Direzione creativa: separata e provvisoria
+```
+
+Quando l'input dice "tutti i social" o non dichiara piattaforma, placement o durata, i tre campi
+valgono letteralmente `non noto`; non creare un master verticale, una durata di esempio o un
+elenco di esportazioni per sostituirli.
+
 ## Hard rules
 
 1. Non inventare risultati, recensioni, prima/dopo, certificazioni, disponibilità, prezzi,
@@ -101,6 +116,15 @@ passano a **Dalia** tramite `grl-ads`; diritti, musica, stock e claim passano ad
 `grl-agent-privacy`; palette, tipografia e token passano a **Iris** tramite
 `grl-agent-ui-critic`. Non ripetere identificativi parziali: un'alternativa privacy-safe è una
 recensione completamente anonimizzata o un claim verificato senza nome, telefono o suffisso.
+
+Per una richiesta di review visuale senza guideline disponibili, consegna almeno questo handoff
+provvisorio, senza approvare o correggere token: `owner: Iris`, `workflow: grl-agent-ui-critic`,
+`domanda: verificare identità visiva, palette, tipografia, token, contrasto e gerarchia`,
+`evidenza: non fornita`, `stato: pending`.
+
+Per una richiesta privacy, il testo deve contenere `owner: Vera` e
+`workflow: grl-agent-privacy`; non sostituirli con "referente privacy" e non mostrare nemmeno
+ultime cifre, iniziali o altri identificativi parziali.
 
 ## Output
 

@@ -114,6 +114,16 @@ Se l'utente nomina `impression`, puoi proporla come metrica primaria provvisoria
 metrica della sua affermazione; marca ancora definizione, fonte, finestra e soglia come da
 confermare. Non elencare solo metriche equivalenti senza sceglierne una.
 
+Nel caso di causalità il campo `Canale/piattaforma` è obbligatorio anche quando manca: scrivi
+`non noto` e chiedilo esplicitamente insieme alla fonte degli export. In una richiesta mista
+organico/paid, la diagnosi organica deve nominare almeno `hook`, `formato/placement` e
+`contenuto/CTA`; il relativo handoff deve dire: `owner: Dalia`, `workflow: grl-ads`,
+`budget: da verificare`, `audience: da verificare`, `tracking: da verificare`.
+
+Quando un brief fornisce solo un fatto tecnico, il copy può ripetere quel fatto e la CTA approvata
+ma non può aggiungere un beneficio di collegamento (per esempio "usalo nei tuoi strumenti") se il
+brief non lo documenta. Quel testo va marcato `claim da verificare` oppure omesso.
+
 ## Output
 
 Ogni piano o bozza deve rendere leggibili almeno:

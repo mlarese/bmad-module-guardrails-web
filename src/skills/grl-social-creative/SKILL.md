@@ -88,6 +88,11 @@ bidding, tracking e piano paid; **Aldo**/`grl-agent-legal` per brani, stock, cla
 per palette, tipografia e token. Non usare solo "Legal", "Privacy" o "account manager" quando
 il modulo dispone dei nomi.
 
+Un handoff è un record operativo anche quando la capacità non viene caricata nel caso isolato:
+scrivi `owner`, `workflow`, `domanda`, `evidenza` e `stato: pending`. Per Iris includi sempre
+`identità visiva`, oltre a palette, tipografia e token. Per Aldo e Vera assegna esplicitamente
+rispettivamente diritti/claim e volti/consenso.
+
 ## Gate creativi
 
 - Non inventare risultati, testimonianze, prima/dopo, prezzi, certificazioni, disponibilità o
@@ -104,6 +109,11 @@ un handoff a Dalia con `domanda`, `evidenza`, `workflow: grl-ads`, `tracking`, `
 `stato`; non fermarti a un `blocked` generico. Se il brief è approvato e l'utente chiede upload o
 programmazione, rifiuta il side effect ma lascia il contenuto in `ready_for_production` o
 `ready_for_review`, con istruzioni producibili, owner, file/asset da usare e gate esterni mancanti.
+
+Nel pacchetto usa esclusivamente l'inventario asset dichiarato dall'utente. Non trasformare
+screen-recording, file CSV, musica, effetti, logo, motion graphic, supporti di scena o dati
+dimostrativi in asset richiesti se non sono stati forniti; se servono, scrivili sotto `asset
+mancante opzionale`, senza inserirli come elementi dello storyboard producibile.
 
 ## Continuità e chiusura
 

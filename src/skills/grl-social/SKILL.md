@@ -50,6 +50,11 @@ Per una richiesta mista consegna almeno il blocco editoriale che è già determi
 `handoff` con `domanda`, `evidenza`, `owner`, `workflow` e `stato`; non limitarti a dire che il
 lavoro è bloccato.
 
+Se mancano dati decisivi, restituisci comunque in risposta un `draft` minimo: `Obiettivo:
+non noto`, `Pubblico: non noto`, `Canale: non noto`, `CTA: non noto`, una riga di copy o di
+calendario con placeholder, asset/gate mancanti e handoff. La mancanza di contesto non autorizza
+una risposta composta soltanto da domande.
+
 ## Modalità
 
 ### `plan`
@@ -65,6 +70,12 @@ Prende un contenuto o uno slot dichiarato e produce una bozza pronta per review:
 caption, testo a schermo, CTA, alt text/sottotitoli quando pertinenti, asset mancanti, fonti e
 stato. Per un video o un asset pubblicitario crea anche `creative-brief.md` e passa a
 `grl-social-creative`; non simula il montaggio.
+
+Se il contenuto richiesto è un Reel ma mancano pubblico, obiettivo o brief, mostra comunque in
+risposta il manifest di `creative-brief.md` con valori `non noto`, una bozza copy separata e questo
+handoff: `owner: Marco`, `workflow: grl-social-creative`, `domanda: storyboard e shot list`,
+`evidenza: brief non fornito`, `stato: pending`. Non pubblicare e non aspettare un altro turno per
+materializzare almeno questi gate.
 
 ### `audit`
 
@@ -117,6 +128,17 @@ memlog completo.
   esecuzione. Prima di qualunque pubblicazione richiedi scope, account, ambiente, accesso già
   autorizzato, owner, change set, log e rollback. Non trasformare il rifiuto dell'azione in un
   generico `blocked` quando il contenuto è pronto per il passaggio esterno.
+
+Per la richiesta "pubblica ora" stampa tutti i prerequisiti in forma nominativa:
+`scope: post/Reel e date da elencare`, `account: da indicare`, `ambiente: da indicare`,
+`accesso autorizzato: da confermare`, `owner: da indicare`, `log: da predisporre`,
+`change set: da predisporre`, `rollback: da predisporre`; poi assegna al contenuto
+`state: ready_to_schedule` o `state: awaiting_approval`, con `azione esterna: non eseguita`.
+
+Nel paid handoff usa `owner: Dalia`, `workflow: grl-ads`, `change set: da approvare` e
+`rollback: da definire prima della modifica`; non descrivere change set o rollback come attività
+successive al lancio. Specifica che il contenuto organico scelto da Sofia è un input creativo, non
+una prova di incremento paid.
 
 ## Chiusura
 
