@@ -1,13 +1,13 @@
 {
   "name": "guardrails-web",
   "owner": "mlarese",
-  "description": "Guardrails Web Experience: qualità visiva, findability, landing page e siti.",
+  "description": "Guardrails Web Experience: qualità visiva, findability, landing page, siti e paid media.",
   "plugins": [
     {
       "name": "grw",
       "source": "./src",
-      "description": "Due figure di presidio su qualità visiva dell'interfaccia e SEO, più il workflow che costruisce landing page e siti dal brief di conversione al progetto. Contro le pagine che sembrano generate e le promesse di ranking.",
-      "version": "1.17.0",
+      "description": "Tre figure di presidio su qualità visiva dell'interfaccia, SEO e media buying/ADV, più i workflow che costruiscono landing page e siti e coordinano audit, piano, tracking e preflight delle campagne Google Ads. Contro le pagine che sembrano generate, le promesse di ranking e la spesa senza misura.",
+      "version": "1.18.0",
       "author": "mlarese",
       "homepage": "https://github.com/mlarese/bmad-module-guardrails-web",
       "repository": "https://github.com/mlarese/bmad-module-guardrails-web",
@@ -18,7 +18,10 @@
         "src/skills/grw-board",
         "src/skills/grl-agent-ui-critic",
         "src/skills/grl-agent-seo",
-        "src/skills/grl-web"
+        "src/skills/grl-agent-ads",
+        "src/skills/grl-web",
+        "src/skills/grl-ads",
+        "src/skills/grl-automation"
       ]
     }
   ]

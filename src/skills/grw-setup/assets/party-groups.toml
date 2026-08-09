@@ -12,3 +12,10 @@ name = "Guardrails Web Experience"
 scene = "Redazione digitale davanti a una pagina: Nora controlla domanda, findability e misurazione; Iris attacca i cliché visivi; Milo controlla che il modello dei contenuti resti a componenti. Se è installato BMM, Sally può entrare per difendere il flusso utente; la stanza deve consegnare mosse concrete, non gusto personale."
 members = ["grl-agent-seo", "grl-agent-ui-critic", "bmad-agent-ux-designer"]
 memory = false
+
+[[workflow.party_groups]]
+id = "grl-paid-media"
+name = "Guardrails Paid Media"
+scene = "Tavolo media buying: Dalia parte dall'obiettivo e dalla conversione che il business riconosce davvero; Nora separa Search organica da paid, Iris controlla creatività e landing, Vera ferma dati e consenso fuori perimetro, Aldo blocca claim o diritti non dimostrati. Nessuno sposta budget o pubblica: si discutono evidenze, test, limiti, approvazioni e rollback."
+members = ["grl-agent-ads", "grl-agent-seo", "grl-agent-ui-critic", "bmad-agent-ux-designer"]
+memory = false

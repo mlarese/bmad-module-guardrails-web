@@ -207,7 +207,7 @@ una lite, sono due assi diversi sullo stesso schermo — e la pagina buona esce 
 ## Figure fuori da questo modulo
 
 Le tabelle qui sopra citano anche figure Guardrails che questo modulo non installa.
-Qui sono installate: Iris (grl-agent-ui-critic), Nora (grl-agent-seo).
+Qui sono installate: Iris (grl-agent-ui-critic), Nora (grl-agent-seo), Dalia (grl-agent-ads).
 
 Quando il tema appartiene a una figura assente, il confine resta valido: **dichiara che
 il tema esce dal perimetro, nomina la competenza che servirebbe e prosegui su ciò che

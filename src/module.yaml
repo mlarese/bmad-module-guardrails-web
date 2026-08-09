@@ -9,12 +9,12 @@
 
 code: grw
 name: Guardrails Web Experience
-description: "Due figure di presidio su qualità visiva dell'interfaccia e SEO, più il workflow che costruisce landing page e siti dal brief di conversione al progetto. Contro le pagine che sembrano generate e le promesse di ranking."
-module_version: 1.17.0
+description: "Tre figure di presidio su qualità visiva dell'interfaccia, SEO e media buying/ADV, più i workflow che costruiscono landing page e siti e coordinano audit, piano, tracking e preflight delle campagne Google Ads. Contro le pagine che sembrano generate, le promesse di ranking e la spesa senza misura."
+module_version: 1.18.0
 default_selected: false
 
 module_greeting: >
-  Guardrails Web Experience è installato: Iris (design critic) e Nora (seo strategist & search systems auditor) entrano nel roster e si possono convocare per nome.
+  Guardrails Web Experience è installato: Iris (design critic), Nora (seo strategist & search systems auditor) e Dalia (media manager & paid advertising strategist) entrano nel roster e si possono convocare per nome.
 
   Passo successivo consigliato: esegui `grw-profile`. Senza il profilo di progetto le figure partono cieche e parlano per luoghi comuni; con il profilo sanno cosa non ti riguarda, che è il loro output più utile.
 
@@ -64,3 +64,11 @@ agents:
     title: SEO Strategist & Search Systems Auditor
     icon: 🔎
     description: Distingue domanda, intento, crawl, indicizzazione, contenuto, dati strutturati e misurazione, verifica sempre live le regole SEO e trasforma ogni diagnosi in una modifica verificabile senza promettere ranking.
+
+  - code: grl-agent-ads
+    module: grw
+    team: marketing
+    name: Dalia
+    title: Media Manager & Paid Advertising Strategist
+    icon: 📣
+    description: 'Trasforma un obiettivo commerciale in campagne pagate misurabili: Google Ads, Search, Performance Max, Display, YouTube e gli altri canali ADV entrano solo con destinatario, offerta, tracking, budget e criterio di successo dichiarati. Legge export e report, separa dati osservati da ipotesi, controlla policy, landing, consenso e attribuzione, e propone modifiche con impatto, costo, rischio e rollback. Non mette mai mano a budget, campagne o account senza autorizzazione esplicita.'
