@@ -21,7 +21,6 @@ stesse figure, stesso comportamento, solo l'area web experience.
 
 | Skill | Comando | Cosa fa |
 | ----- | ------- | ------- |
-| `grw-setup` | Installa Guardrails Web Experience | Registra Guardrails, le tre figure, le stanze tematiche di party mode e le voci di help. Non crea la memoria condivisa. |
 | `grw-profile` | Profila il progetto | Raccoglie in pochi minuti gli otto campi che danno contesto a tutte e tre le figure, criticità inclusa. |
 | `grw-profile` | Aggiorna il profilo | Riallinea il profilo quando il progetto cambia, e dice se il cambiamento invalida rischi già accettati. |
 | `grw-board` | Convoca il collegio | Fa leggere lo stesso artefatto alle sole figure pertinenti e restituisce un riepilogo unico, conflitti compresi. |
@@ -66,14 +65,6 @@ Guardrails: installandone due, il profilo resta uno solo e si compila una volta.
 Questo modulo installa skill con **lo stesso nome** del bundle `grl` — `grl-agent-ui-critic`
 sta identica in entrambi. Bundle e moduli tematici non vanno installati insieme nello
 stesso progetto: si sceglie il bundle completo, oppure i moduli delle aree che servono.
-
-## Stanze di party mode
-
-grw-setup installa le stanze del modulo in `_bmad/custom/bmad-party-mode.toml`, senza cambiare la stanza di default:
-
-- `bmad-party-mode --party grl-web`
-- `bmad-party-mode --party grl-paid-media`
-- `bmad-party-mode --party grl-automation`
 
 ## Licenza
 
