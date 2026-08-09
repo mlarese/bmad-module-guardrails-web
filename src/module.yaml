@@ -10,7 +10,7 @@
 code: grw
 name: Guardrails Web Experience
 description: "Due figure di presidio su qualità visiva dell'interfaccia e SEO, più il workflow che costruisce landing page e siti dal brief di conversione al progetto. Contro le pagine che sembrano generate e le promesse di ranking."
-module_version: 1.16.0
+module_version: 1.17.0
 default_selected: false
 
 module_greeting: >

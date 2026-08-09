@@ -25,6 +25,7 @@ stesse figure, stesso comportamento, solo l'area web experience.
 | `grw-profile` | Aggiorna il profilo | Riallinea il profilo quando il progetto cambia, e dice se il cambiamento invalida rischi già accettati. |
 | `grw-board` | Convoca il collegio | Fa leggere lo stesso artefatto alle sole figure pertinenti e restituisce un riepilogo unico, conflitti compresi. |
 | `grw-board` | Rischi già accettati | Mostra, raggruppato per figura, quello che il progetto ha consapevolmente scelto di accettare. |
+| `grw-board` | Gate di rilascio | Verifica una release identificata e restituisce GO, GO_CON_CONDIZIONI, NO_GO o EVIDENZA_INSUFFICIENTE. |
 | `grl-web` | Crea una landing o un sito | Dal brief di conversione — destinatario, promessa, obiezione, prova, azione — al mockup HTML a file singolo. |
 | `grl-web` | Riprendi un mockup | Rientra su una pagina già fatta, applica il cambiamento e segnala se contraddice una decisione già registrata. |
 | `grl-web` | Diagnostica una pagina | Perché una pagina che esiste già non converte: il brief ricostruito all'indietro e da tre a cinque mosse concrete. |
