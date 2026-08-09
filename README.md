@@ -73,6 +73,7 @@ grw-setup installa le stanze del modulo in `_bmad/custom/bmad-party-mode.toml`, 
 
 - `bmad-party-mode --party grl-web`
 - `bmad-party-mode --party grl-paid-media`
+- `bmad-party-mode --party grl-automation`
 
 ## Licenza
 
