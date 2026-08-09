@@ -124,7 +124,8 @@ provvisorio, senza approvare o correggere token: `owner: Iris`, `workflow: grl-a
 
 Per una richiesta privacy, il testo deve contenere `owner: Vera` e
 `workflow: grl-agent-privacy`; non sostituirli con "referente privacy" e non mostrare nemmeno
-ultime cifre, iniziali o altri identificativi parziali.
+ultime cifre, iniziali o altri identificativi parziali. Il divieto vale per il video, lo storyboard,
+il creative brief, i file di lavoro e ogni altro elemento del pacchetto, non solo per il frame.
 
 ## Output
 

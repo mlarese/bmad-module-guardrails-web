@@ -93,6 +93,25 @@ scrivi `owner`, `workflow`, `domanda`, `evidenza` e `stato: pending`. Per Iris i
 `identità visiva`, oltre a palette, tipografia e token. Per Aldo e Vera assegna esplicitamente
 rispettivamente diritti/claim e volti/consenso.
 
+In `validate`, stampa sempre questi record anche se nessun altro agente è caricato nel caso:
+
+```text
+Handoff Aldo — workflow: grl-agent-legal
+Domanda: verificare brano, stock, claim e diritti.
+Evidenza: asset e licenze presenti nel pacchetto.
+Stato: pending
+
+Handoff Vera — workflow: grl-agent-privacy
+Domanda: verificare volti, UGC e consenso.
+Evidenza: liberatorie e base giuridica presenti nel pacchetto.
+Stato: pending
+```
+
+Per una review visuale, usa una domanda completa e separa lo stato del pacchetto dal gate: `Handoff
+Iris — workflow: grl-agent-ui-critic`; `Domanda: puoi verificare identità visiva, palette,
+tipografia e token rispetto al design system?`; `Evidenza: non fornita`; `Stato: pending`;
+`Pacchetto: ready_for_review`. `ready_for_review` non è un'approvazione visuale.
+
 ## Gate creativi
 
 - Non inventare risultati, testimonianze, prima/dopo, prezzi, certificazioni, disponibilità o
