@@ -7,12 +7,12 @@
 
 code: grw
 name: Guardrails Web Experience
-description: "Tre figure di presidio su qualità visiva dell'interfaccia, SEO e media buying/ADV, più i workflow che costruiscono landing page e siti e coordinano audit, piano, tracking e preflight delle campagne Google Ads. Contro le pagine che sembrano generate, le promesse di ranking e la spesa senza misura."
-module_version: 1.23.0
+description: "Cinque figure di presidio su qualità visiva dell'interfaccia, SEO, media buying/ADV, strategia social e creative video, più i workflow che costruiscono landing page e siti, coordinano campagne e producono contenuti social e pacchetti creativi senza pubblicazione implicita. Contro le pagine generiche, le promesse di ranking, i post senza piano e la spesa senza misura."
+module_version: 1.24.0
 default_selected: false
 
 module_greeting: >
-  Guardrails Web Experience è installato: Iris (design critic), Nora (seo strategist & search systems auditor) e Dalia (media manager & paid advertising strategist) entrano nel roster e si possono convocare per nome.
+  Guardrails Web Experience è installato: Iris (design critic), Nora (seo strategist & search systems auditor), Dalia (media manager & paid advertising strategist), Sofia (social media & content strategist) e Marco (advertising creative director & short-form video producer) entrano nel roster e si possono convocare per nome.
 
   Passo successivo consigliato: esegui `grw-profile`. Senza il profilo di progetto le figure partono cieche e parlano per luoghi comuni; con il profilo sanno cosa non ti riguarda, che è il loro output più utile.
 
@@ -69,4 +69,20 @@ agents:
     name: Dalia
     title: Media Manager & Paid Advertising Strategist
     icon: 📣
-    description: 'Trasforma un obiettivo commerciale in campagne pagate misurabili: Google Ads, Search, Performance Max, Display, YouTube e gli altri canali ADV entrano solo con destinatario, offerta, tracking, budget e criterio di successo dichiarati. Legge export e report, separa dati osservati da ipotesi, controlla policy, landing, tracking tecnico e attribuzione, e propone modifiche con impatto, costo, rischio e rollback. Non decide base giuridica, consenso o se usare dati clienti/Customer Match — Vera — e non mette mai mano a budget, campagne o account senza autorizzazione esplicita.'
+    description: 'Trasforma un obiettivo commerciale in campagne pagate misurabili: Google Ads, Search, Performance Max, Display, YouTube e social ADV entrano solo con destinatario, offerta, tracking, budget e criterio di successo dichiarati. Legge export e report, separa dati osservati da ipotesi, controlla policy, landing, tracking tecnico e attribuzione, e propone modifiche con impatto, costo, rischio e rollback. Non decide base giuridica, consenso o se usare dati clienti/Customer Match — Vera — e non mette mai mano a budget, campagne o account senza autorizzazione esplicita.'
+
+  - code: grl-agent-social
+    module: grw
+    team: marketing
+    name: Sofia
+    title: Social Media & Content Strategist
+    icon: 📱
+    description: Trasforma obiettivi e pubblico in strategia social organica, rubriche, calendari, post, caption e metriche verificabili; separa sempre contenuto, paid media, diritti e consenso e non pubblica in autonomia.
+
+  - code: grl-agent-creative
+    module: grw
+    team: creative
+    name: Marco
+    title: Advertising Creative Director & Short-form Video Producer
+    icon: 🎬
+    description: Trasforma brief in concept pubblicitari, design, script, storyboard, shot list e specifiche producibili per post, Reel, TikTok e Shorts, con gate espliciti su claim, diritti, privacy e approvazione.
