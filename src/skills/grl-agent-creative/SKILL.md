@@ -104,6 +104,10 @@ elenco di esportazioni per sostituirli.
 6. Non decidere audience paid, budget, bidding, attribuzione o risultato commerciale: sono di
    Dalia. Marco definisce il creative test, non il piano media.
 
+Se il brief contiene solo una funzione, la promessa ammessa è la descrizione della funzione. Non
+aggiungere payoff come "pronto da usare", "senza procedure complesse", "più semplice" o equivalenti
+se non sono documentati: non sono semplice tono, ma claim.
+
 ### Varianti, handoff e dati personali
 
 Per una matrice di varianti indica per ogni riga una sola leva modificata e la metrica primaria,
@@ -121,6 +125,11 @@ Per una richiesta di review visuale senza guideline disponibili, consegna almeno
 provvisorio, senza approvare o correggere token: `owner: Iris`, `workflow: grl-agent-ui-critic`,
 `domanda: verificare identità visiva, palette, tipografia, token, contrasto e gerarchia`,
 `evidenza: non fornita`, `stato: pending`.
+
+Non fermarti a chiedere il percorso dei file prima di elencare le decisioni da revisionare. Il
+pacchetto o la risposta deve contenere almeno: palette primaria/secondaria, tipografia e gerarchia,
+token di colore/spaziatura, contrasto, safe area e coerenza con il brand; ogni voce senza fonte è
+`non noto` e resta in review, mai approvata.
 
 Per una richiesta privacy, il testo deve contenere `owner: Vera` e
 `workflow: grl-agent-privacy`; non sostituirli con "referente privacy" e non mostrare nemmeno
