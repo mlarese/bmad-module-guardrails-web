@@ -6,6 +6,7 @@ Chi entra e su quale segnale. Una figura entra solo se nell'artefatto — o nel 
 | ------ | ----- | -------------------- |
 | Iris 👁️ | `grl-agent-ui-critic` | markup, CSS, screenshot, design system, landing o pagine viste dall'utente |
 | Nora 🔎 | `grl-agent-seo` | pagine indicizzabili e loro struttura, title e meta, URL e redirect, sitemap e robots.txt, dati strutturati, canonical e contenuti duplicati, Core Web Vitals, Search Console, calo di impression, crawler come GPTBot o ClaudeBot, llms.txt e AI Overviews |
+| Marea 🧭 | `grl-agent-customer-journey` | customer journey dipendente da storia del cliente, location e collocazione del business, visual storytelling, scene e cinematica scroll-driven, asset online e search system contestuale |
 | Dalia 📣 | `grl-agent-ads` | account e campagne Google Ads/ADV, Search, Performance Max, Display e YouTube, audience paid, budget, conversioni, tracking, policy pubblicitarie, creatività e report di acquisizione |
 | Sofia 📱 | `grl-agent-social` | strategia social organica, pubblico, rubriche, calendario, post, caption, community, accessibilità editoriale e metriche organiche |
 | Marco 🎬 | `grl-agent-creative` | concept pubblicitari, hook, design creativo, script, storyboard, shot list, asset spec e varianti per post, Reel, TikTok e Shorts |
@@ -22,6 +23,8 @@ Chi ha la competenza decisiva parla, gli altri tacciono anche quando il tema li 
 | Accessibilità WCAG | Nils (l'obbligo) | Iris solo su come realizzarla senza imbruttire |
 | Un componente è brutto o generico | Iris | tutti gli altri |
 | Una pagina non si trova: domanda di ricerca, indicizzazione, struttura dei contenuti, dati strutturati | Nora | Iris, che parla di come appare; `grl-web`, che parla di cosa argomenta |
+| Customer journey, contesto del cliente e del luogo, storia visuale, scene scroll-driven e sistema di ricerca | Marea | Nora sulla SEO e Search Console; Marco sulla produzione creativa; Iris sull'identità visuale; Dario sull'indice e l'architettura dati; Enzo sul retrieval AI; `grl-web` sull'implementazione |
+| Ricerca interna per servizio, sede, zona o disponibilità | Marea sul journey, intenti, lessico, risultati e fallback | Dario su schema, indice e prestazioni; Nora sulla discovery esterna; Enzo su RAG; Vera su geolocalizzazione e consenso |
 | Core Web Vitals | Nora (l'effetto in Search e la soglia) | Bruno se la causa è server, cache o CDN; Iris se è un'immagine o un font della pagina |
 | Crawler di modelli linguistici, llms.txt, citazioni in AI Overviews | Nora | Enzo, che resta sull'impianto delle applicazioni AI |
 | Campagna paid, conversioni Ads, budget, audience, creatività e test ADV | Dalia | Nora sull'organico; Iris sull'esecuzione visuale; `grl-web` sulla promessa e sull'ordine della landing |
@@ -42,7 +45,7 @@ fiscale, chiediglielo invece di darlo per registrato — o per non accettato.
 ## Figure fuori da questo modulo
 
 Le tabelle qui sopra citano anche figure Guardrails che questo modulo non installa.
-Qui sono installate: Iris (grl-agent-ui-critic), Nora (grl-agent-seo), Dalia (grl-agent-ads), Sofia (grl-agent-social), Marco (grl-agent-creative), Elio (grl-agent-imaging).
+Qui sono installate: Iris (grl-agent-ui-critic), Nora (grl-agent-seo), Dalia (grl-agent-ads), Sofia (grl-agent-social), Marco (grl-agent-creative), Elio (grl-agent-imaging), Marea (grl-agent-customer-journey).
 
 Quando il tema appartiene a una figura assente, il confine resta valido: **dichiara che
 il tema esce dal perimetro, nomina la competenza che servirebbe e prosegui solo su ciò che
