@@ -29,7 +29,7 @@ workflows for the web experience area.
 | `grw-profile` | Project profile | Collects the project context shared by every installed figure. |
 | `grw-board` | Multidisciplinary review | Convenes the relevant figures on one artifact and returns a review summary or release verdict. |
 | `grl-web` | Web experience delivery | Moves landing pages and websites from a conversion brief through visual review, accessibility, SEO, and delivery. |
-| `grl-video-to-scroll` | Video-to-scroll frame packages | Collects the customer journey, searches for usable video sources, extracts authorized local frames, and hands a validated scroll specification to web delivery. |
+| `grl-video-to-scroll` | Video-to-scroll frame packages | Runs a tool preflight, asks before installing missing capabilities, collects the customer journey, searches for usable video sources, extracts authorized local frames, and hands a validated scroll specification to web delivery. |
 | `grl-ads` | Paid media operations | Audits, plans, tracks, optimizes, preflights, and applies paid-media change sets behind approval and rollback gates. |
 | `grl-social` | Organic social strategy | Builds social strategies, calendars, content, audits, and measurement plans without scheduling or publishing. |
 | `grl-social-creative` | Social creative production | Turns a brief into producible concepts, scripts, storyboards, shot lists, specifications, and channel variants. |
