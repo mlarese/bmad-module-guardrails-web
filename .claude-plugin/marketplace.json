@@ -1,13 +1,13 @@
 {
   "name": "guardrails-web",
   "owner": "mlarese",
-  "description": "Guardrails Web Experience: customer journey, visual storytelling, search system contestuali, pagine landing/home di riferimento con sezioni e cinematica, landing scroll-driven statiche, video-to-scroll da sorgenti autorizzate, qualità visiva, findability, landing page, siti, social content, immagini generate e paid media.",
+  "description": "Guardrails Web Experience: customer journey, visual storytelling, search system contestuali, pagine landing/home di riferimento con sezioni, curtain, gallery e cinematica, landing scroll-driven statiche, video-to-scroll da sorgenti autorizzate, qualità visiva, findability, landing page, siti, social content, immagini generate e paid media.",
   "plugins": [
     {
       "name": "grw",
       "source": "./src",
-      "description": "Sette figure di presidio su customer journey e visual storytelling situati, pagine landing/home di riferimento con sezioni, CTA e cinematica, regia di landing scroll-driven statiche da asset online verificati e piani video-to-scroll da sorgenti autorizzate, qualità visiva dell'interfaccia, SEO, media buying/ADV, strategia social, creative video e generazione di immagini con modelli AI, più i workflow che cercano sorgenti video, estraggono pacchetti di frame e costruiscono landing page e siti, coordinano campagne e producono contenuti social e pacchetti creativi senza pubblicazione implicita. Contro i percorsi generici, le pagine anonime, le promesse di ranking, i post senza piano e la spesa senza misura.",
-      "version": "1.33.0",
+      "description": "Sette figure di presidio su customer journey e visual storytelling situati, pagine landing/home di riferimento con sezioni, CTA, curtain, aperture a tenda, gallery e cinematica, regia di landing scroll-driven statiche da asset online verificati e piani video-to-scroll da sorgenti autorizzate, qualità visiva dell'interfaccia, SEO, media buying/ADV, strategia social, creative video e generazione di immagini con modelli AI, più i workflow che cercano sorgenti video, estraggono pacchetti di frame e costruiscono landing page e siti, coordinano campagne e producono contenuti social e pacchetti creativi senza pubblicazione implicita. Contro i percorsi generici, le pagine anonime, le promesse di ranking, i post senza piano e la spesa senza misura.",
+      "version": "1.34.0",
       "author": "mlarese",
       "homepage": "https://github.com/mlarese/bmad-module-guardrails-web",
       "repository": "https://github.com/mlarese/bmad-module-guardrails-web",

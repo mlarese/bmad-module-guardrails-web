@@ -1,6 +1,6 @@
 # Guardrails Web Experience (`grw`)
 
-A focused BMad module for customer journeys, landing/home page references with ordered sections and cinematics, static and video-source scroll-driven visual storytelling, licensed video sourcing and frame packages, verified asset rights, visual quality, search, web delivery, paid media, organic social content, creative video, and AI image generation. It guards against generic journeys, anonymous pages, unsupported ranking promises, unplanned posts, and unmeasured spend.
+A focused BMad module for customer journeys, landing/home page references with ordered sections, curtain/gallery cinematics, static and video-source scroll-driven visual storytelling, licensed video sourcing and frame packages, verified asset rights, visual quality, search, web delivery, paid media, organic social content, creative video, and AI image generation. It guards against generic journeys, anonymous pages, unsupported ranking promises, unplanned posts, and unmeasured spend.
 
 This is a focused BMad module in the [Guardrails](https://github.com/mlarese/bmad-module-guardrails)
 bundle. It keeps the same behavior and shared memory while installing only the figures and
@@ -20,7 +20,7 @@ workflows for the web experience area.
 | 📱 Sofia | Social Media & Content Strategist | `grl-agent-social` | Organic strategy, content pillars, calendars, posts, captions, community, and metrics. |
 | 🎬 Marco | Advertising Creative Director & Short-form Video Producer | `grl-agent-creative` | Advertising concepts, design, scripts, storyboards, shot lists, Reels, TikToks, and Shorts. |
 | 🖼️ Elio | AI Image Generation & Post-production Specialist | `grl-agent-imaging` | Nano Banana, Imagen, GPT Image, Photoshop, prompts, masks, subject consistency, provenance, and export. |
-| 🧭 Marea | Customer Journey & Visual Storytelling Strategist | `grl-agent-customer-journey` | Client story, location, business placement, landing/home page reference packages, ordered sections, CTAs, customer journeys, visual narratives, static and video-source scroll cinematics, timecode/frame plans, online asset sources and rights gates, and contextual search systems; no upload or publication is implicit. |
+| 🧭 Marea | Customer Journey & Visual Storytelling Strategist | `grl-agent-customer-journey` | Client story, location, business placement, landing/home page reference packages, ordered sections, CTAs, curtain/gallery cinematics, customer journeys, visual narratives, static and video-source scroll cinematics, timecode/frame plans, online asset sources and rights gates, and contextual search systems; no upload or publication is implicit. |
 
 ## Skills and workflows
 
