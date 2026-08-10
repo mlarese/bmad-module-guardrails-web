@@ -6,8 +6,8 @@
     {
       "name": "grw",
       "source": "./src",
-      "description": "Sette figure di presidio su customer journey e visual storytelling situati, regia di landing scroll-driven statiche da asset online verificati e piani video-to-scroll da sorgenti autorizzate, qualità visiva dell'interfaccia, SEO, media buying/ADV, strategia social, creative video e generazione di immagini con modelli AI, più i workflow che costruiscono landing page e siti, coordinano campagne e producono contenuti social e pacchetti creativi senza pubblicazione implicita. Contro i percorsi generici, le pagine anonime, le promesse di ranking, i post senza piano e la spesa senza misura.",
-      "version": "1.30.0",
+      "description": "Sette figure di presidio su customer journey e visual storytelling situati, regia di landing scroll-driven statiche da asset online verificati e piani video-to-scroll da sorgenti autorizzate, qualità visiva dell'interfaccia, SEO, media buying/ADV, strategia social, creative video e generazione di immagini con modelli AI, più i workflow che cercano sorgenti video, estraggono pacchetti di frame e costruiscono landing page e siti, coordinano campagne e producono contenuti social e pacchetti creativi senza pubblicazione implicita. Contro i percorsi generici, le pagine anonime, le promesse di ranking, i post senza piano e la spesa senza misura.",
+      "version": "1.31.0",
       "author": "mlarese",
       "homepage": "https://github.com/mlarese/bmad-module-guardrails-web",
       "repository": "https://github.com/mlarese/bmad-module-guardrails-web",
@@ -23,6 +23,7 @@
         "src/skills/grl-agent-creative",
         "src/skills/grl-agent-imaging",
         "src/skills/grl-web",
+        "src/skills/grl-video-to-scroll",
         "src/skills/grl-ads",
         "src/skills/grl-social",
         "src/skills/grl-social-creative",

@@ -1,6 +1,6 @@
 # Guardrails Web Experience (`grw`)
 
-A focused BMad module for customer journeys, static and video-source scroll-driven visual storytelling, verified asset rights, visual quality, search, web delivery, paid media, organic social content, creative video, and AI image generation. It guards against generic journeys, anonymous pages, unsupported ranking promises, unplanned posts, and unmeasured spend.
+A focused BMad module for customer journeys, static and video-source scroll-driven visual storytelling, licensed video sourcing and frame packages, verified asset rights, visual quality, search, web delivery, paid media, organic social content, creative video, and AI image generation. It guards against generic journeys, anonymous pages, unsupported ranking promises, unplanned posts, and unmeasured spend.
 
 This is a focused BMad module in the [Guardrails](https://github.com/mlarese/bmad-module-guardrails)
 bundle. It keeps the same behavior and shared memory while installing only the figures and
@@ -29,6 +29,7 @@ workflows for the web experience area.
 | `grw-profile` | Project profile | Collects the project context shared by every installed figure. |
 | `grw-board` | Multidisciplinary review | Convenes the relevant figures on one artifact and returns a review summary or release verdict. |
 | `grl-web` | Web experience delivery | Moves landing pages and websites from a conversion brief through visual review, accessibility, SEO, and delivery. |
+| `grl-video-to-scroll` | Video-to-scroll frame packages | Collects the customer journey, searches for usable video sources, extracts authorized local frames, and hands a validated scroll specification to web delivery. |
 | `grl-ads` | Paid media operations | Audits, plans, tracks, optimizes, preflights, and applies paid-media change sets behind approval and rollback gates. |
 | `grl-social` | Organic social strategy | Builds social strategies, calendars, content, audits, and measurement plans without scheduling or publishing. |
 | `grl-social-creative` | Social creative production | Turns a brief into producible concepts, scripts, storyboards, shot lists, specifications, and channel variants. |
