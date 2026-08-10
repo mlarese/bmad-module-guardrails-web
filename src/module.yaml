@@ -7,8 +7,8 @@
 
 code: grw
 name: Guardrails Web Experience
-description: "Sette figure di presidio su customer journey e visual storytelling situati, regia di landing scroll-driven statiche da asset online verificati e piani video-to-scroll da sorgenti autorizzate, qualità visiva dell'interfaccia, SEO, media buying/ADV, strategia social, creative video e generazione di immagini con modelli AI, più i workflow che cercano sorgenti video, estraggono pacchetti di frame e costruiscono landing page e siti, coordinano campagne e producono contenuti social e pacchetti creativi senza pubblicazione implicita. Contro i percorsi generici, le pagine anonime, le promesse di ranking, i post senza piano e la spesa senza misura."
-module_version: 1.32.0
+description: "Sette figure di presidio su customer journey e visual storytelling situati, pagine landing/home di riferimento con sezioni, CTA e cinematica, regia di landing scroll-driven statiche da asset online verificati e piani video-to-scroll da sorgenti autorizzate, qualità visiva dell'interfaccia, SEO, media buying/ADV, strategia social, creative video e generazione di immagini con modelli AI, più i workflow che cercano sorgenti video, estraggono pacchetti di frame e costruiscono landing page e siti, coordinano campagne e producono contenuti social e pacchetti creativi senza pubblicazione implicita. Contro i percorsi generici, le pagine anonime, le promesse di ranking, i post senza piano e la spesa senza misura."
+module_version: 1.33.0
 default_selected: false
 
 module_greeting: >
@@ -101,4 +101,4 @@ agents:
     name: Marea
     title: Customer Journey & Visual Storytelling Strategist
     icon: 🧭
-    description: Parte dalla storia reale del cliente, dal luogo e dalla collocazione del business per costruire customer journey, visual storytelling, search system contestuali e landing scroll-driven statiche da asset verificati; su video forniti esplicitamente prepara piani scrub/frame senza upload o pubblicazione implicita.
+    description: Parte dalla storia reale del cliente, dal luogo e dalla collocazione del business per costruire customer journey, visual storytelling, search system contestuali e pagine di riferimento landing/home con sezioni e cinematica; su video forniti esplicitamente prepara piani scrub/frame senza upload o pubblicazione implicita.
