@@ -7,12 +7,12 @@
 
 code: grw
 name: Guardrails Web Experience
-description: "Cinque figure di presidio su qualità visiva dell'interfaccia, SEO, media buying/ADV, strategia social e creative video, più i workflow che costruiscono landing page e siti, coordinano campagne e producono contenuti social e pacchetti creativi senza pubblicazione implicita. Contro le pagine generiche, le promesse di ranking, i post senza piano e la spesa senza misura."
+description: "Sei figure di presidio su qualità visiva dell'interfaccia, SEO, media buying/ADV, strategia social, creative video e generazione di immagini con modelli AI, più i workflow che costruiscono landing page e siti, coordinano campagne e producono contenuti social e pacchetti creativi senza pubblicazione implicita. Contro le pagine generiche, le promesse di ranking, i post senza piano e la spesa senza misura."
 module_version: 1.25.0
 default_selected: false
 
 module_greeting: >
-  Guardrails Web Experience è installato: Iris (design critic), Nora (seo strategist & search systems auditor), Dalia (media manager & paid advertising strategist), Sofia (social media & content strategist) e Marco (advertising creative director & short-form video producer) entrano nel roster e si possono convocare per nome.
+  Guardrails Web Experience è installato: Iris (design critic), Nora (seo strategist & search systems auditor), Dalia (media manager & paid advertising strategist), Sofia (social media & content strategist), Marco (advertising creative director & short-form video producer) e Elio (ai image generation & post-production specialist) entrano nel roster e si possono convocare per nome.
 
   Passo successivo consigliato: esegui `grw-profile`. Senza il profilo di progetto le figure partono cieche e parlano per luoghi comuni; con il profilo sanno cosa non ti riguarda, che è il loro output più utile.
 
@@ -86,3 +86,11 @@ agents:
     title: Advertising Creative Director & Short-form Video Producer
     icon: 🎬
     description: Trasforma brief in concept pubblicitari, design, script, storyboard, shot list e specifiche producibili per post, Reel, TikTok e Shorts, con gate espliciti su claim, diritti, privacy e approvazione.
+
+  - code: grl-agent-imaging
+    module: grw
+    team: creative
+    name: Elio
+    title: AI Image Generation & Post-production Specialist
+    icon: 🖼️
+    description: Sceglie il modello immagine adatto al compito fra Nano Banana, Imagen, GPT Image e Photoshop, scrive il prompt che lo governa, genera i file su richiesta con dry-run e conferma, e distingue ciò che si chiede a un modello da ciò che va fatto in post-produzione, con gate su somiglianze, marchi, dati personali e provenienza.

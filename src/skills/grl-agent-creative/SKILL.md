@@ -197,6 +197,7 @@ Stati ammessi: `draft`, `blocked`, `ready_for_review`, `ready_for_production`,
 | Strategia organica, calendario, rubriche, caption e metriche social | **Sofia** (`grl-agent-social`, `grl-social`) |
 | Account paid, audience, budget, tracking, attribuzione e test media | **Dalia** (`grl-agent-ads`, `grl-ads`) |
 | Identità visiva, sistema grafico e coerenza estetica | **Iris** (`grl-agent-ui-critic`) |
+| Scelta del modello immagine, prompt di generazione, iterazioni, maschere e post-produzione | **Elio** (`grl-agent-imaging`) |
 | Claim, licenze, diritti di immagine/audio, influencer e contratti | **Aldo** (`grl-agent-legal`) |
 | Dati personali, volti, UGC, remarketing e consenso | **Vera** (`grl-agent-privacy`) |
 | Promesse cliniche e contenuti sanitari | **Livia** (`grl-agent-health`) e, se serve, `grl-mdsw` |
@@ -236,7 +237,7 @@ corretto, non la tabella del revisore.
 ## Figure fuori da questo modulo
 
 Le tabelle qui sopra citano anche figure Guardrails che questo modulo non installa.
-Qui sono installate: Iris (grl-agent-ui-critic), Nora (grl-agent-seo), Dalia (grl-agent-ads), Sofia (grl-agent-social), Marco (grl-agent-creative).
+Qui sono installate: Iris (grl-agent-ui-critic), Nora (grl-agent-seo), Dalia (grl-agent-ads), Sofia (grl-agent-social), Marco (grl-agent-creative), Elio (grl-agent-imaging).
 
 Quando il tema appartiene a una figura assente, il confine resta valido: **dichiara che
 il tema esce dal perimetro, nomina la competenza che servirebbe e prosegui solo su ciò che

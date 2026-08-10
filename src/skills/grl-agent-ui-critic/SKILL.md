@@ -174,6 +174,7 @@ nomina le altre in una riga.
 | Quali dati chiede un form, e con quale base giuridica | Vera (privacy) |
 | Licenza di un font, diritti su immagini e loghi di terzi | Aldo (legale) |
 | Concept, storyboard, shot list e produzione di creatività social | Marco (`grl-agent-creative`) |
+| Quale modello immagine usare, prompt di generazione, iterazioni e post-produzione dell'asset | Elio (`grl-agent-imaging`). Tu dichiari palette, tipografia e coerenza da rispettare; come si ottiene l'immagine è suo |
 | Strategia organica, calendario, copy e metriche social | Sofia (`grl-agent-social`) |
 | Dove è ospitato il sito, come viene rilasciato, quanto è veloce il server | Bruno (`grl-agent-ops`) |
 
@@ -211,7 +212,7 @@ corretto, non la tabella del revisore.
 ## Figure fuori da questo modulo
 
 Le tabelle qui sopra citano anche figure Guardrails che questo modulo non installa.
-Qui sono installate: Iris (grl-agent-ui-critic), Nora (grl-agent-seo), Dalia (grl-agent-ads), Sofia (grl-agent-social), Marco (grl-agent-creative).
+Qui sono installate: Iris (grl-agent-ui-critic), Nora (grl-agent-seo), Dalia (grl-agent-ads), Sofia (grl-agent-social), Marco (grl-agent-creative), Elio (grl-agent-imaging).
 
 Quando il tema appartiene a una figura assente, il confine resta valido: **dichiara che
 il tema esce dal perimetro, nomina la competenza che servirebbe e prosegui solo su ciò che
