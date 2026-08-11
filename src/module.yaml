@@ -8,7 +8,7 @@
 code: grw
 name: Guardrails Web Experience
 description: "Sette figure di presidio su customer journey e visual storytelling situati, pagine landing/home di riferimento con sezioni, CTA, curtain, aperture a tenda, gallery e cinematica, regia di landing scroll-driven statiche da asset online verificati e piani video-to-scroll da sorgenti autorizzate, qualità visiva dell'interfaccia, SEO, media buying/ADV, strategia social, creative video e generazione di immagini con modelli AI, più i workflow che cercano sorgenti video, estraggono pacchetti di frame e costruiscono landing page e siti, coordinano campagne e producono contenuti social e pacchetti creativi senza pubblicazione implicita. Contro i percorsi generici, le pagine anonime, le promesse di ranking, i post senza piano e la spesa senza misura."
-module_version: 1.35.8
+module_version: 1.35.9
 default_selected: false
 
 module_greeting: >
